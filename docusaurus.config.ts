@@ -18,7 +18,7 @@ const config: Config = {
   url: 'https://bethanyann.github.io', // production url
   baseUrl: '/digital-garden/', // '/<projectName>/' format
   organizationName: 'bethanyann', 
-  projectName: 'digital_garden', 
+  projectName: 'digital-garden', 
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
   onBrokenLinks: 'throw',
