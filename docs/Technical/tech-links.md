@@ -6,7 +6,7 @@ title: Tech Links
 
 A collection of links that I can't seem to keep organized any other way
 
-
+<!-- 
 ### Summary
 A concise overview of a small utility: reading a file, transforming contents, and writing output.
 
@@ -47,6 +47,6 @@ node transform.js docs/notes.txt docs/notes.UPPER.txt
 
 ## Further ideas
 - Add CLI flags for encoding, trim behavior, and a dry-run mode.
-- Add unit tests (Jest / Mocha) and a CI workflow to validate changes.
+- Add unit tests (Jest / Mocha) and a CI workflow to validate changes. -->
 
 <!-- End of page -->

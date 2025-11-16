@@ -1,11 +1,15 @@
 ---
 sidebar_position: 1
 slug: /
-id: intro
+id: welcome
 ---
 
-# Tutorial Intro
+# Welcome
 
+- [Basic Markdown Syntax Guide](https://www.markdownguide.org/basic-syntax/)
+- Digital Garden Inspiration (https://www.woolgathering.xyz/)
+
+<!-- 
 Let's discover **Docusaurus in less than 5 minutes**.
 
 ## Getting Started
@@ -46,4 +50,4 @@ The `cd` command changes the directory you're working with. In order to work wit
 
 The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes. -->
