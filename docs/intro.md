@@ -8,6 +8,7 @@ id: welcome
 
 - [Basic Markdown Syntax Guide](https://www.markdownguide.org/basic-syntax/)
 - Digital Garden Inspiration (https://www.woolgathering.xyz/)
+- [Mentorship Guide](https://mentorship.guide/)
 
 <!-- 
 Let's discover **Docusaurus in less than 5 minutes**.
