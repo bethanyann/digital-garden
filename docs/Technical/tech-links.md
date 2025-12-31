@@ -276,7 +276,7 @@ A collection of links that I can't seem to keep organized any other way -->
 
 - [Netflix TechBlog](https://netflixtechblog.com/)
 - [The Product-Minded Software Engineer - The Pragmatic Engineer](https://blog.pragmaticengineer.com/the-product-minded-engineer/?utm_source=substack&utm_medium=email)
-- [An app can be a home-cooked mea](https://www.robinsloan.com/notes/home-cooked-app/)
+- [An app can be a home-cooked meal](https://www.robinsloan.com/notes/home-cooked-app/)
 - [I (don't?) want to say yes to everything](https://cassidoo.co/post/saying-yes-or-no/)
 - [GitHub - kilimchoi/engineering-blogs: A curated list of engineering blogs](https://github.com/kilimchoi/engineering-blogs)
 - [Links & blogroll - localghost](https://localghost.dev/links/)
@@ -296,3 +296,146 @@ A collection of links that I can't seem to keep organized any other way -->
 - [Online Master's Degrees from Top Universities | Coursera](https://www.coursera.org/degrees/masters)
 - [Master of Science in Computer Science | Coursera](https://www.coursera.org/degrees/ms-computer-science-boulder)
 - [MS-CS Curriculum & Degree Requirements | Computer Science | University of Colorado Boulder](https://www.colorado.edu/cs/academics/online-programs/mscs-coursera/curriculum#ucb-accordion-id--2-content8)
+
+### Dev Resources
+
+- [ ]  Rapid API Link - tons of APIs for free https://rapidapi.com/hub
+- [ ]  [Free for Developers](https://free-for.dev/#/)
+- [ ]  Heroku Alternatives:  https://github.com/anandrmedia/heroku-free-alternatives
+- [ ]  [43 Best Free CSS Image Lightbox - freshDesignweb](https://freshdesignweb.com/image-lightbox/)
+- [ ]  [JavaScript for impatient programmers (ES2022 edition)](https://exploringjs.com/impatient-js/)
+- [ ]  [effective typescript](https://www.google.com/search?q=effective+typescript&ie=UTF-8&oe=UTF-8&hl=en-us&client=safari)
+- [ ]  [Oh Shit, Git!?!](https://ohshitgit.com/)
+- [ ]  [SurfQL - GraphQL Schema Visualizer](https://github.com/oslabs-beta/SurfQL)
+- [ ]  [Accessibility Resources for Developers](https://www.freecodecamp.org/news/accessibilty-websites-for-developers/)
+- [ ]  [Learn X in Y Minutes: Scenic Programming Language Tours](https://learnxinyminutes.com/)
+- [ ]  https://www.refactoringui.com/
+- [ ]  Free Textbooks: https://runestone.academy/ns/books/index
+- [ ]  **Illustrated explanations of web development, technology & a little bit of anthropology:** https://illustrated.dev/
+
+### CSS Resources
+
+- [ ]  [An Interactive Guide to Flexbox in CSS](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
+- [ ]  https://cssgridgarden.com/
+- [ ]  https://css-tricks.com/snippets/css/complete-guide-grid/
+- [ ]  [Understanding flex-grow, flex-shrink, and flex-basis | CSS-Tricks - CSS-Tricks](https://css-tricks.com/understanding-flex-grow-flex-shrink-and-flex-basis/)
+- [ ]  [CSS-Tricks - Tips, Tricks, and Techniques on using Cascading Style Sheets.](https://css-tricks.com/)
+- [ ]  [Animista - On-Demand CSS Animations Library](https://animista.net/play/entrances/rotate-in/rotate-in-diag-2)
+- [ ]  https://codepen.io/rodzyk/pen/vYbPvaZ
+
+### React Resources
+
+---
+
+**Tutorials and Learning**
+
+- [ ]  [Mastering Maintainable React | Udemy](https://www.udemy.com/course/mastering-maintainable-react/)
+- [ ]  [The interactive way to master modern React – react.gg](https://react.gg/?s=visualized)
+- [ ]  [How to Implement a Blender Model in a React.js Application using Three.js](https://www.freecodecamp.org/news/blender-three-js-react-js/)
+- [ ]  [How to Create a Fully Animated Sidebar in React.js using Framer Motion](https://www.freecodecamp.org/news/create-a-fully-animated-sidebar/)
+- [ ]  [Learn Full Stack Development with Next.js and Supabase by Building a Twitter Clone.](https://www.freecodecamp.org/news/learn-full-stack-development-with-next-js-and-supabase-by-building-a-twitter-clone/)
+
+**Libraries**
+
+- [ ]  https://github.com/aholachek/react-flip-toolkit
+- [ ]  https://github.com/trussworks/react-uswds
+- [ ]  [React Custom Modal (forked) - StackBlitz](https://stackblitz.com/edit/react-custom-modal-vewhds?file=index.js)
+- [ ]  Collection of React hooks by the ui.dev team: https://usehooks.com/
+- [ ]  Cypress testing framework: https://www.cypress.io/
+
+**Articles & Videos**
+
+- [ ]  [The Interactive Guide to Rendering in React](https://ui.dev/why-react-renders)
+- [ ]  [Goodbye, useEffect - David Khourshid - YouTube](https://m.youtube.com/watch?v=bGzanfKVFeU)
+- [ ]  [React Is Holding Me Hostage](https://emnudge.dev/blog/react-hostage)
+- [ ]  [A Beginner's Guide to Portals in React: Everything You Need to Know](https://israelmitolu.hashnode.dev/a-beginners-guide-to-portals-in-react-everything-you-need-to-know)
+- [ ]  12 React Hooks Every Developer Needs: https://betterprogramming.pub/12-react-hooks-every-react-developer-should-know-9c6352b81329
+- [ ]  Just the React documentation: https://react.dev/learn/responding-to-events#can-event-handlers-have-side-effects
+- [ ]  https://tigerabrodi.blog/the-power-of-forwardref-in-reactjs-when-and-how-to-use-it
+
+### Random Programming Articles
+
+---
+
+[Beautiful Anki cards](https://www.notion.so/Beautiful-Anki-cards-dea9df14ec59456d9ab218f190785e23?pvs=21)
+
+- [ ]  [What’s so great about functional programming anyway?](https://jrsinclair.com/articles/2022/whats-so-great-about-functional-programming-anyway/)
+- [ ]  [How NASA James Webb Space Telescope Uses Python & Coding](https://www-codecademy-com.cdn.ampproject.org/c/s/www.codecademy.com/resources/blog/nasa-james-webb-space-telescope-python-data/amp/)
+- [ ]  https://www.codewars.com/post/developer-productivity-a-guide-to-entering-the-flow-state
+- [ ]  [15 Backend Project Ideas for Your Developer Portfolio](https://blog.hubspot.com/website/backend-projects)
+- [ ]  [Open Heroines](https://openheroines.org/)
+- [ ]  [Software Delivery That Makes Sense | by Mikael Vesavuori | Mar, 2023 | Medium](https://mikaelvesavuori.medium.com/software-delivery-that-makes-sense-e6c4ae520b20)
+- [ ]  https://itnext.io/the-difference-between-the-clever-developer-the-wise-developer-a0edd9d8a692
+- [ ]  https://www.freecodecamp.org/news/learn-visual-studio-code-to-increase-productivity/
+- [ ]  [https://www.northeastern.edu/graduate/blog/agile-vs-scrum/#:~:text=The key difference between Agile,used to facilitate a project](https://www.northeastern.edu/graduate/blog/agile-vs-scrum/#:~:text=The%20key%20difference%20between%20Agile,used%20to%20facilitate%20a%20project).
+- [ ]  [The Elixir programming language](https://elixir-lang.org/)
+- [ ]  [Real-World Behaviour Driven Development](https://learnbdd.com/minimal-bdd)
+- [ ]  [Use Vite to Speed Up Web Development](https://www-freecodecamp-org.cdn.ampproject.org/c/s/www.freecodecamp.org/news/complete-vite-course-for-beginners/amp/)
+- [ ]  [Key Computer Science Concepts Every Software Engineer Should Know – and How to Learn Them](https://www.freecodecamp.org/news/what-every-software-engineer-should-know/)
+- [ ]  [Online Course: Algorithms and Data Structures from edX | Class Central](https://www.classcentral.com/course/ucsandiegox-algorithms-and-data-structures-18334)
+- [ ]  [willbraun/3d-dice-roll: Roll dice in 3D!](https://github.com/willbraun/3d-dice-roll)
+- [ ]  [acantril/learn-cantrill-io-labs: Standard and Advanced Demos for learn.cantrill.io courses](https://github.com/acantril/learn-cantrill-io-labs)
+- [ ]  [SVG `<path>` builder](https://mavo.io/demos/svgpath/)
+- [ ]  [Discover Three.js: Intro and Study Guide](https://rcmtcristian.hashnode.dev/discover-threejs-intro-and-study-guide)
+- [ ]  [Decoupled Applications and Composable Web Architectures | Storyblok](https://www.storyblok.com/lp/o-reilly-report-decoupled-applications-and-composable-web-architectures?utm_source=4dayweek&utm_medium=sponsor&utm_campaign=DGM_GC_4DW_LEA&utm_content=4DayWeek_Newsletter_SEP2023B)
+- [ ]  [The Uphill Battle of Memoization | TkDodo's blog](https://tkdodo.eu/blog/the-uphill-battle-of-memoization)
+- [ ]  [API Integration Patterns – The Difference between REST, RPC, GraphQL, Polling, WebSockets and WebHooks](https://www.freecodecamp.org/news/api-integration-patterns/)
+- [ ]  [Git Organized: A Better Git Flow | Render Blog](https://render.com/blog/git-organized-a-better-git-flow)
+- [ ]  https://github.com/jlevy/the-art-of-command-line
+- [ ]  [Start Your Project With a Walking Skeleton - Henrico Dolfing](https://www.henricodolfing.com/2018/04/start-your-project-with-walking-skeleton.html?m=1)
+- [ ]  Google’s Code Review PR Process:
+- [ ]  https://read.engineerscodex.com/p/how-google-takes-the-pain-out-of
+
+### Frontend & JavaScript
+
+---
+
+- [ ]  [The Javascript higher order array methods with reactjs examples - DEV Community 👩‍💻👨‍💻](https://dev.to/boluwatifeajayi/the-javascript-higher-order-array-methods-implemented-with-react-2gpd)
+- [ ]  How to Deploy a Node.js app to production: https://www.freecodecamp.org/news/deploy-nodejs-app-server-to-production/
+- [ ]  [What Exactly is Node.js? Explained for Beginners](https://www-freecodecamp-org.cdn.ampproject.org/c/s/www.freecodecamp.org/news/what-is-node-js/amp/)
+- [ ]  [The Best Practices for Front-End Development | HackerNoon](https://hackernoon.com/the-best-practices-for-front-end-development)
+- [ ]  [2023 Web Design Trends to Inspire You All Year Long | Dribbble](https://dribbble.com/resources/web-design-trends-2023?utm_campaign=2023-03-15&utm_medium=email&utm_source=insider-20230315)
+- [ ]  [javascript - What is the meaning of "literal" in the phrase object literal notation? - Stack Overflow](https://stackoverflow.com/questions/20998159/what-is-the-meaning-of-literal-in-the-phrase-object-literal-notation)
+- [ ]  [Establishing your identity as a designer](https://vanschneider.com/blog/young-designers/establishing-your-voice-as-a-designer/)
+- [ ]  [⭐️🎀 JavaScript Visualized: Promises & Async/Await - DEV Communit](https://dev.to/lydiahallie/javascript-visualized-promises-async-await-5gke)y
+- [ ]  [Advanced JavaScript Concepts To Write High-Quality Code That Scales](https://www-paulsblog-dev.cdn.ampproject.org/c/s/www.paulsblog.dev/advanced-javascript-concepts-to-write-high-quality-code-that-scales/amp/)
+- [ ]  [Your last guide to JavaScript Generator Functions](https://tigerabrodi.blog/your-last-guide-to-javascript-generator-functions)
+- [ ]  [How to Use the "this" Keyword in JavaScript](https://www.freecodecamp.org/news/the-this-keyword-in-javascript/)
+- [ ]  [✋🏼🔥 CS Visualized: CORS - DEV Community](https://dev.to/lydiahallie/cs-visualized-cors-5b8h)
+- [ ]  [Front End JavaScript Development Handbook – React, Angular, and Vue Compared](https://www-freecodecamp-org.cdn.ampproject.org/c/s/www.freecodecamp.org/news/front-end-javascript-development-react-angular-vue-compared/amp/)
+- [ ]  [Writing a TodoMVC App With Modern Vanilla JavaScript | Frontend Masters](https://frontendmasters.com/blog/vanilla-javascript-todomvc/)
+- [ ]  [Learn Advanced Javascript](https://ui.dev/advanced-javascript)
+- [ ]  [JavaScript 30 — Build 30 things with vanilla JS in 30 days with 30 tutorials](https://javascript30.com/)
+- [ ]  [Build and Deploy a Full Stack Notion Clone with Next.js, DALL-E, Vercel](https://www.freecodecamp.org/news/build-and-deploy-a-full-stack-notion-clone-with-next-js-dall-e-vercel/)
+- [ ]  [Why I Won't Use Next.js | Epic Web Dev by Kent C. Dodds](https://www.epicweb.dev/why-i-wont-use-nextjs)
+- [ ]  [Frontend Web Development: In-Depth Project Tutorial](https://www.freecodecamp.org/news/frontend-web-development-in-depth-project-tutorial/)
+- [ ]  [How to Build Responsive Websites – Best Practices for Developers](https://www.freecodecamp.org/news/responsive-design-best-practices/)
+- [ ]  [What is NodeJS? The JavaScript Engine and Runtime Explained for Beginners](https://www.freecodecamp.org/news/what-is-node-js-explained/)
+- [ ]  https://github.com/KBPsystem777/You-Dont-Know-JS
+- [ ]  [Stop Lazy Loading Product and Hero Images – Cloud Four](https://cloudfour.com/thinks/stop-lazy-loading-product-and-hero-images/)
+- [ ]  https://markdalgleish.com/projects/stellar.js/docs/
+- [ ]  https://blog.imam.dev/blog/javascript-hashmap
+- [ ]  Static Site Generators & Astro.js
+- [ ]  https://www.youtube.com/watch?app=desktop&v=kssIEqSJeMI&feature=youtu.be
+- [ ]  11ty, Jeckyl, Svelte Kit, Gatsby
+
+### Open Source Contributing - Resources
+
+---
+
+1. https://summerofcode.withgoogle.com/
+2. https://summerofcode.withgoogle.com/archive/2022/organizations
+3. https://goodfirstissues.com/
+4. https://opensource.org/
+5. https://training.linuxfoundation.org/resources/?_sft_topic_area=open-source-best-practice&_sft_content_type=free-course
+6. https://up-for-grabs.net/?ref=hackernoon.com#/
+7. [Open Source Friday | This Friday, invest a few hours contributing to the software you use and love.](https://opensourcefriday.com/)
+8. [Great for new contributors · GitHub](https://github.com/showcases/great-for-new-contributors)
+
+### Game Dev
+
+---
+
+- [ ]  [Brackeys - YouTube](https://www.youtube.com/@Brackeys)
+- [ ]  [Game Development Basics - by Gergely Orosz](https://newsletter.pragmaticengineer.com/p/game-development-basics)
+- [ ]  [Top game assets - itch.io](https://itch.io/game-assets)
