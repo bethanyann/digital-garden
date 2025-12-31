@@ -1,8 +1,3 @@
----
-id: ddia-notes
-title: DDIA
----
-
 # Designing Data Intensive Applications
 
 A short, focused technical note to kick off the documentation.
@@ -47,7 +42,6 @@ There is truth in that statement: building for scale that you don’t need is wa
 
 > [GitHub repo for all of the references linked in the book](https://github.com/ept/ddia-references)
 
-
 ### Chapter 1 - Reliable, Scalable & Maintainable Applications
 #### Introduces the terminology and approach that we’re going to use throughout this book. It examines what we actually mean by words like reliability, scalability, and maintainability, and how we can try to achieve these goals.
 
@@ -60,7 +54,7 @@ For example, many applications need to:
 4. Send a message to another process, to be handled asynchronously (stream processing)
 5. Periodically crunch a large amount of accumulated data (batch processing) 
 
-![Figure 1-1. One possible architecture for a data system that combines several components](image.png)
+![Figure 1-1 One possible architecture for a data system that combines several components](image.png)
 
 When you combine several tools in order to provide a service, the service’s interface or application programming interface (API) usually hides those implementation details from clients. Now you have essentially created a new, special-purpose data system from smaller, general-purpose components. 
 
@@ -323,7 +317,6 @@ Historically, data started out being represented as one big tree (the hierarchic
 All three models (document, relational, and graph) are widely used today, and each is good in its respective domain. One model can be emulated in terms of another model—for example, graph data can be represented in a relational database—but the result is often awkward. That’s why we have different systems for different purposes, not a single one-size-fits-all solution.
 
  One thing that document and graph databases have in common is that they typically don’t enforce a schema for the data they store, which can make it easier to adapt applications to changing requirements. However, your application most likely still assumes that data has a certain structure; it’s just a question of whether the schema is explicit (enforced on write) or implicit (assumed on read).
-
 
 ### Chapter 3 - Storage & Retrieval
 #### This chapter turns to the internals of storage engines and looks at how databases lay out data on disk. Different storage engines are optimized for different workloads, and choosing the right one can have a huge effect on performance.
@@ -714,7 +707,7 @@ How does leader-based replication work under the hood? Several different replica
 In the simplest case, the leader logs every write request (statement) that it executes and sends that statement log to its followers. For a relational database, this means that every INSERT, UPDATE, or DELETE statement is forwarded to followers, and each follower parses and executes that SQL statement as if it had been received from a client.
 This approach to replication can break down:
 - Any statement that calls a nondeterministic function, such as NOW() to get the current date and time or RAND() to get a random number, is likely to generate a different value on each replica.
-- If statements use an autoincrementing column, or if they depend on the existing data in the database (e.g., UPDATE … WHERE <some condition>), they must be executed in exactly the same order on each replica, or else they may have a different effect. This can be limiting when there are multiple concurrently executing transactions.
+- If statements use an autoincrementing column, or if they depend on the existing data in the database, they must be executed in exactly the same order on each replica, or else they may have a different effect. This can be limiting when there are multiple concurrently executing transactions.
 - Statements that have side effects (e.g., triggers, stored procedures, user-defined functions) may result in different side effects occurring on each replica, unless the side effects are absolutely deterministic.
 
 
@@ -1284,15 +1277,6 @@ For modeling real systems, the partially synchronous model with crash-recovery f
 
 To define what it means for an algorithm to be correct, we can describe its properties. For example, the output of a sorting algorithm has the property that for any two distinct elements of the output list, the element further to the left is smaller than the element further to the right. That is simply a formal way of defining what it means for a list to be sorted.
 
-Similarly, we can write down the properties we want of a distributed algorithm to define what it means to be correct. For example, if we are generating fencing tokens for a lock (see “Fencing tokens”), we may require the algorithm to have the following properties:
-
-Uniqueness
-    No two requests for a fencing token return the same value.
-Monotonic sequence 
-    If request x returned token tx, and request y returned token ty, and x completed before y began, then tx < ty. 
-Availability 
-    A node that requests a fencing token and does not crash eventually receives a response.
-
 *Safety and liveness*
 
 To clarify the situation, it is worth distinguishing between two different kinds of properties: safety and liveness properties. In the example just given, uniqueness and monotonic sequence are safety properties, but availability is a liveness property. What distinguishes the two kinds of properties? A giveaway is that liveness properties often include the word “eventually” in their definition. (And yes, you guessed it—eventual consistency is a liveness property)
@@ -1310,7 +1294,6 @@ The theoretical description of an algorithm can declare that certain things are 
 Proving an algorithm correct does not mean its implementation on a real system will necessarily always behave correctly. But it’s a very good first step, because the theoretical analysis can uncover problems in an algorithm that might remain hidden for a long time in a real system, and that only come to bite you when your assumptions (e.g., about timing) are defeated due to unusual circumstances. Theoretical analysis and empirical testing are equally important.
 
 _Summary_
-
 - In this chapter we have discussed a wide range of problems that can occur in distributed systems, including:
 Whenever you try to send a packet over the network, it may be lost or arbitrarily delayed. Likewise, the reply may be lost or delayed, so if you don’t get a reply, you have no idea whether the message got through.
 - A node’s clock may be significantly out of sync with other nodes (despite your best efforts to set up NTP), it may suddenly jump forward or back in time, and relying on it is dangerous because you most likely don’t have a good measure of your clock’s confidence interval.
@@ -1375,13 +1358,6 @@ Now that we’ve looked at a few examples in which linearizability is useful, le
 Since linearizability essentially means “behave as though there is only a single copy of the data, and all operations on it are atomic,” the simplest answer would be to really only use a single copy of the data. However, that approach would not be able to tolerate faults: if the node holding that one copy failed, the data would be lost, or at least inaccessible until the node was brought up again.
 
 The most common approach to making a system fault-tolerant is to use replication.
-
-
-
-
-
-
-
 
 
 ### Setion III: Derived Data
