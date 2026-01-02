@@ -21,6 +21,12 @@ A collection of links that I can't seem to keep organized any other way -->
 - [WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/)
 - https://github.com/accessibility/a11y-courses
 
+
+### Tech Writing
+
+- [Advice for New Tech Bloggers](https://writethatblog.substack.com/p/advice-for-new-tech-bloggers)
+
+
 ### Design Stuff
 
 - [Ditherface](https://www.ditherface.com/)
